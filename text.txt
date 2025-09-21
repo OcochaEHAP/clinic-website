@@ -1,0 +1,56 @@
+Rania , Assil => Patient, RDV, Calendrier, Payment_de_patient, les images;
+
+ajouter le payjment au section de patient.
+les services dans le commentaire
+tableau de gestion detailes pour le bloque :
+  les frais: location de bloc, aide, la gaine
+
+  
+Tableau de bort separe: Clinic/bloc
+
+
+revielle d'impos.
+ =>janvier, juin 1st => 20th.
+ . furhter contact.
+
+Coter Gestoon pour les assitants, from them to lamia.
+
+
+{{--
+            Laser Epilasion
+            botox
+            filler
+            hydrafacial
+            HIFU visage & vaginal
+            Drainage lymphatique
+            cavitation
+            radio frequence
+          Reclamation
+          Controle
+          --}}
+
+
+
+          khalilcl_system
+
+
+
+
+
+
+
+
+The key fingerprint is:
+SHA256:SbaYCGisLW003llQHjOprXCoQbmtdz7us64t3gPySJM oussamaayachefff@gmail.com
+The key's randomart image is:
++---[RSA 2048]----+
+|  . ..=.         |
+|.+   o.+         |
+|oo*. oo o        |
+|+*o=o+.= o       |
+|ooBo+.o S        |
+|.E o..           |
+|. * +            |
+| . oo=           |
+|  .o*B=          |
++----[SHA256]-----+

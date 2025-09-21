@@ -1,0 +1,142 @@
+Absolutely! I’ll guide you with the **exact layout, sizes, and spacing** so you can **rebuild the clinic website design in Figma** just by looking at the image. Let’s go step by step 🔧
+
+---
+
+## 📐 Overall Settings
+
+### 🖥️ Frame:
+
+* **Desktop size**: `1440 x 3000` (adjust height as needed)
+
+### 📏 Grid & Spacing:
+
+* **Padding (left/right):** `80px`
+* **Section spacing:** `120px` between main sections
+* **Text spacing:** `16–24px` between headlines, paragraphs, and buttons
+
+---
+
+## 🧱 Section Breakdown
+
+---
+
+### 1️⃣ **Header**
+
+* **Height:** `80px`
+* **Logo left**, Nav links center/right
+* **Font size:** 16px (links)
+* **Button:** `120 x 40`, radius `6px`, font 14px
+* Use a light box shadow
+
+---
+
+### 2️⃣ **Hero Section**
+
+* **Height:** `600–720px`
+* **Background:** Full-width image with dark gradient overlay
+* **Main heading:** 48px, bold
+* **Subtext:** 20–24px
+* **Button:** `140 x 50`, radius `6px`, bold font
+
+Example spacing:
+
+```
+Heading → 16px → Subtext → 24px → Button
+```
+
+---
+
+### 3️⃣ **About the Doctor**
+
+* **Two-column layout**:
+
+  * Left: image (`400x500`)
+  * Right: text content, aligned vertically
+
+* **Name:** 32px bold
+
+* **Paragraph:** 16–18px, line-height `150%`
+
+---
+
+### 4️⃣ **Services Sections** (repeat for each service)
+
+* **Full-width background image** (50% opacity overlay)
+* Inside container: Text on one side (left or right)
+
+  * Width: `600–700px`
+* **Title:** 28–32px
+* **Description:** 16–18px
+* Use padding: `80px top + bottom`
+
+Alternate text/image positions between services for visual rhythm.
+
+---
+
+### 5️⃣ **Location Section**
+
+* **Google Maps Embed Placeholder:** `1000 x 300`
+* Add address and hours on the side or below (depending on layout)
+
+---
+
+### 6️⃣ **Testimonials**
+
+* Grid of 2 or 3 cards
+* **Card size:** `300 x 200`
+* **Name:** Bold 16px
+* **Comment:** 14px regular
+* Optionally use stars (SVG or Emoji ⭐)
+
+Spacing between cards: `32px`
+
+---
+
+### 7️⃣ **Contact Section**
+
+* **Form inputs:** width `300px`, height `44px`, spacing `16px`
+* Fields: Name, Email, Message
+* Button: `140 x 50`, primary color
+
+Also include contact details on the right:
+
+* Phone 📞
+* Email ✉️
+* Hours ⏰
+
+---
+
+### 8️⃣ **Footer**
+
+* **Height:** `80–100px`
+* **Text:** 14px
+* Include:
+
+  * Copyright
+  * Social icons
+  * Links (Terms, Privacy)
+
+---
+
+## ✅ Fonts to Use
+
+* **Headings:** `Poppins` or `Lora`, bold
+* **Body text:** `Open Sans` or `Inter`
+
+---
+
+## 🎨 Colors
+
+| Element        | Color Code |
+| -------------- | ---------- |
+| Background     | `#ffffff`  |
+| Accent Blue    | `#e6f2ff`  |
+| Dark Text      | `#003366`  |
+| Light Gray     | `#f7f7f7`  |
+| Button Primary | `#0077cc`  |
+
+---
+
+If you want, I can give you a Figma “style guide” frame to help set up text styles, color tokens, and spacing presets.
+
+Let me know if you'd like that next!
