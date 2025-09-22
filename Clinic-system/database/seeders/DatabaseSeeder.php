@@ -23,10 +23,10 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        //     Patient::factory(250)->create();
-        // RDV::factory(205)->create();
-        // Payment::factory(250)->create();
-        // Expense::factory(250)->create();
+            Patient::factory(250)->create();
+        RDV::factory(250)->create();
+        Payment::factory(250)->create();
+        Expense::factory(250)->create();
 
         User::create([
     'name' => 'Oussama Ayache',

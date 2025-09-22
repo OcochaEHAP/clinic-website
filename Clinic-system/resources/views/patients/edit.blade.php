@@ -80,7 +80,7 @@
                 <div class="col-md-6">
                     <label class="form-label fw-bold">Esthétique sans chirurgie</label>
 
-                    @foreach(['Filler / Botox','Hydrafacial','Épilation laser','HIFU visage','HIFU vaginal','Drainage'] as $option)
+                    @foreach(['Filler / Botox','Hydrafacial','Épilation laser','HIFU visage','HIFU vaginal','Drainage','Consultation'] as $option)
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" name="interventions[]" value="{{ $option }}"
                                 {{ in_array($option, $selectedInterventions ?? []) ? 'checked' : '' }}>

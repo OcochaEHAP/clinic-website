@@ -110,6 +110,13 @@
             Drainage
         </label>
     </div>
+
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="interventions[]" value="Consultation" id="Drainage">
+        <label class="form-label fw-bold">Consultation</label> 
+        </label>
+    </div>
+
     {{-- add :
         Drainage
         Controle

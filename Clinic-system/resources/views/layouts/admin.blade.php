@@ -74,6 +74,20 @@
         </ul>
       </li>
 
+      {{-- les eventments --}}
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle link-dark" href="#" id="AppoinmentsDropDown"
+           data-bs-toggle="dropdown" aria-expanded="false">
+          les evenments
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="imagesDropdown">
+          <li><a href="{{route('events.create')}}" class="dropdown-item"> Ajouter Un Evenment</a></li>
+          <li><a href="{{route('events.index')}}" class="dropdown-item"> Toutes les evenments</a></li>
+        </ul>
+      </li>
+
+
       {{-- les Images --}}
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle link-dark" href="#" id="imagesDropdown"

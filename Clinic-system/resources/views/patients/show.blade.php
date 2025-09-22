@@ -65,7 +65,7 @@
                 <label class="form-label fw-bold">Esthétique sans chirurgie</label>
                 <ul>
                     @foreach([
-                        'Filler / Botox','Hydrafacial','Épilation laser','HIFU visage','HIFU vaginal','Drainage'
+                        'Filler / Botox','Hydrafacial','Épilation laser','HIFU visage','HIFU vaginal','Drainage','Consultation'
                     ] as $c)
                         <li>
                             {{ $c }} :

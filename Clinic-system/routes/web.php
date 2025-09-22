@@ -17,6 +17,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CashMovementController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlocPaymentController;
+use App\Http\Controllers\EventController;
 
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
@@ -244,6 +245,14 @@ Route::middleware(['auth', 'role:admin,assistant'])->group(function () {
     // Store new bloc payment
     Route::post('/bloc-payments', [BlocPaymentController::class, 'store'])->name('bloc-payments.store');
 
+    Route::prefix('/events')->group( function ()  {
+        Route::get('', [EventController::class, 'index'])->name('events.index');
+    Route::get('/create', [EventController::class, 'create'])->name('events.create');
+    Route::post('', [EventController::class, 'store'])->name('events.store');
+    Route::get('/{id}/edit', [EventController::class, 'edit'])->name('events.edit');
+    Route::put('/{id}', [EventController::class, 'update'])->name('events.update');
+    Route::delete('/{id}', [EventController::class, 'destroy'])->name('events.destroy');
+    });
 
 
 });
