@@ -111,7 +111,16 @@
           <li><a href="{{route('patients.index')}}" class="dropdown-item">Tous les patients</a></li>
         </ul>
       </li>
-
+      {{-- Arret De Travail  --}}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle link-dark" href="#" id="patientsDropdown"
+           data-bs-toggle="dropdown" aria-expanded="false">
+          Arret du travail
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="ArretDeTravailDropdown">
+          <li><a href="{{route('arret-de-travail.create')}}" class="dropdown-item">Generer un Arret De Travail</a></li>
+        </ul>
+      </li>
       {{-- Les Payments --}}
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle link-dark" href="#" id="paymentsDropdown"

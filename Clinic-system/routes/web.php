@@ -18,6 +18,7 @@ use App\Http\Controllers\CashMovementController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlocPaymentController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\ArretDeTravailController;
 
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
@@ -253,6 +254,19 @@ Route::middleware(['auth', 'role:admin,assistant'])->group(function () {
     Route::put('/{id}', [EventController::class, 'update'])->name('events.update');
     Route::delete('/{id}', [EventController::class, 'destroy'])->name('events.destroy');
     });
+    // Arret de travaill
+
+        Route::prefix('admin')
+        ->name('arret-de-travail.')
+        ->group(function () {
+            Route::get('/arret-de-travail', [ArretDeTravailController::class, 'create'])
+                ->name('create');
+
+            Route::post('/arret-de-travail/generate', [ArretDeTravailController::class, 'generate'])
+                ->name('generate');
+        });
+
+
 
 
 });
